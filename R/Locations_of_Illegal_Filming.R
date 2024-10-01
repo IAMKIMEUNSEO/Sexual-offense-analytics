@@ -1,5 +1,5 @@
 # 카메라 이용촬영 범죄 발생 장소 현황 데이터를 읽어옵니다
-media <- read.csv("../excelNgraph_img/경찰청_카메라등이용촬영범죄 발생장소 현황_20211231.csv", header = T, fileEncoding = "euc-kr")
+media <- read.csv("excelNgraph_img/excel/경찰청_카메라등이용촬영범죄_발생장소_현황_20211231.csv", header = T, fileEncoding = "euc-kr")
 
 # 데이터 구조 확인
 media_data <- media[1:nrow(media),]

@@ -1,5 +1,5 @@
 # 경찰청 성범죄 발생 및 검거 현황 데이터를 읽어옵니다
-crime <- read.csv("../excelNgraph_img/경찰청_성범죄 발생 및 검거 현황_20211231.csv", header = T, fileEncoding = "euc-kr")
+crime <- read.csv("excelNgraph_img/excel/경찰청_성범죄_발생_및_검거_현황_20211231.csv", header = T, fileEncoding = "euc-kr")
 
 # 데이터 구조 확인
 head(crime)
