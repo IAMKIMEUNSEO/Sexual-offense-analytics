@@ -1,28 +1,28 @@
 # 성범죄 발생률과 검거율의 상관관계
 최근 성범죄 관련 기사가 급증하고 있으며, 불법 촬영이나 메타버스 아동성범죄 등 다양한 형태의 사건이 끊임없이 보도되고 있다. 과거에 비해 성범죄 발생이 눈에 띄게 증가하고 있는 상황이지만, 체포율은 그에 미치지 못하고 있는 실정이다. 성범죄가 실제로 얼마나 늘어나고 있으며, 그 원인은 무엇인지 파악하고자 이 주제를 연구하고자 한다.
 
-## ![Detection or Release in Media-related Crimes.R](R/Detention_or_Release_in_Media-related_Crimes.R)
+## [Detection or Release in Media-related Crimes.R](R/Detention_or_Release_in_Media-related_Crimes.R)
 이 산포도는 2014년부터 2021년까지 여러 해 동안 구속도니 사람 수와 불구속된 사람 수의 관계를 보여준다.
 ![Detection or Release in Media-related Crimes](excelNgraph_img/graph_img/Detection_or_Release_in_Media-related_Crimes.png)
 - **연도별 경향**: 시간이 지남에 따라 구속자 수는 줄어드는 반면 불구속자 수는 증가하는 경향을 보인다.
 - **주목할 변화**: 2020년과 2021년에는 불구속 자가 크게 늘어난 반면, 구속자 수는 감소하는 모습을 보인다.
 - **결론**: 통신매체 관련 범죄가 점점 더 해결되지 않거나, 법 집행이 이러한 범죄를 다루는 데 있어 어려움을 겪고 있다.
 
-## ![Locations_of_Illegal_Filming.R](R/Locations_of_Illegal_Filming.R)
+## [Locations_of_Illegal_Filming.R](R/Locations_of_Illegal_Filming.R)
 이 막대 그래프는 22014년부터 2021년 동안 다양한 장소에서 발생한 불법 촬영 사건 수를 보여준다(주거지, 거리, 상점, 대기실, 지하철 등).
 ![Locations_of_Illegal_Filming](excelNgraph_img/graph_img/Locations_of_Illegal_Filming.png)
 - **주거지 범죄 증가**: 주거지에서의 범죄가 시간이 지남에 따라 눈에 띄게 증가했으며, 특히 2018년과 2020년 사이에 크게 늘어났다.
 - **공공장소 범죄 감소 또는 안정**: 거리, 상점, 대기실 등 공공장소에서의 범죄는 비교적 안정적이거나 감소하는 추세를 보인다.
 - **결론**: 불법 촬영 범죄가 공공장소보다는 점점 더 사적인 공간(예: 주거지)을 대상으로 변화하고 있다.
 
-## ![Sex_Crime_Arrest_Rate.R](R/Sex_Crime_Arrest_Rate.R)
+## [Sex_Crime_Arrest_Rate.R](R/Sex_Crime_Arrest_Rate.R)
 이 꺾은선 그래프는 2014년부터 2021년까지 성범죄 유형별(강간, 카메랄 범죄, 매체 범죄, 성적 장소 범죄) 검거율을 보여준다.
 ![Sex_Crime_Arrest_Rate](excelNgraph_img/graph_img/Sex_Crime_Arrest_Rate.png)
 - **특정 범죄의 검거율 감소**: 특히 '매체 범죄'와 '성적 장소 범죄'의 검거율이 2017년 이후로 크게 감소했다. '매체 범죄'는 시간이 지남에 따라 꾸준히 감소하고, '성적 장소 범죄'는 2018년 이후 급격히 하락했다.
 - **다른 범죄의 검거율 인정**: 강간과 카메라 범죄의 검거율은 비교적 안정적이지만, 말미에 다소 감소하는 경향이 보인다.
 - **결론**: 매체 관련 범죄와 성적 장소 범죄에 대한 검거율 감소는 이러한 범죄를 다루는 데 있어 범 집행이 점점 더 까다로워지고 있음을 시사한다.
 
-## ![Sex_Crime_Occurrence_N_Arrest.R](R/Sex_Crime_Occurrence_N_Arrest.R)
+## [Sex_Crime_Occurrence_N_Arrest.R](R/Sex_Crime_Occurrence_N_Arrest.R)
 이 누적 막대 그래프는 2014년부터 2021년까지 다양한 성범죄의 총 발생 건수(빨간색)와 검거 건수(녹색)을 보여준다(강간, 카메라 범죄, 매체 범죄, 성적 장소 범죄)
 ![Sex_Crime_Occurrence_N_Arrest](excelNgraph_img/graph_img/Sex_Crime_Occurrence_N_Arrest.png)
 - **범죄 발생과 검거의 격차**: 매체 범죄와 성적 장소 범죄에서 범죄 발생 건수와 검거 건수 사이에 눈에 띄는 격차가 있다. 이 격차는 시간이 지날수록 커지는 경향을 보인다.
